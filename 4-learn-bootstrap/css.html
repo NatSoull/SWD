@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
+    <style>
+        body{
+            height: 5000px;
+        }
+        .box{
+            height: 600px;
+            position: relative;
+        }
+        
+
+
+        /*absolute က scroll ဆွဲရင်ပါသွားတယ်*/
+        .box-one{
+            position: absolute; 
+            z-index: 3;
+            top: 0;
+            right: 0;
+        }
+
+        /*fixed က ဘယ်လောက် scroll ဆွဲဆွဲသူ့နေရာမှာသူရှိတယ်*/
+        .box-two{
+            position: fixed;
+            z-index: 2;
+            bottom: 0;
+            left: 0;
+        }
+
+        /*sticky က parent ထဲမှာကျန်ခဲ့ပြီး အလုပ်လုပ်တယ်*/
+        .box-three{
+            position: sticky;
+            z-index: 1;
+            top: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="border border-3 border-primary m-5 box">
+        <div class="p-3 bg-info box-one"></div>
+        <div class="p-4 bg-secondary box-two"></div>
+        <div class="p-5 bg-dark box-three"></div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aperiam
+             dignissimos recusandae placeat eum eligendi sint. Commodi doloremque blanditiis
+             accusantium numquam unde, enim, deleniti corporis in exercitationem dignissimos, 
+             labore
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.icon{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.parent:hover .icon{
+    opacity: 1;
+}
+
+.image{
+    transition: 0.5s;
+}
+
+.parent:hover .image{
+    opacity: 0.6;
+}

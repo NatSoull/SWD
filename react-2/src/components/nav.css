@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+}
+
+li {
+    margin-right: 40px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    color: black;
+    text-decoration: underline ;
+}

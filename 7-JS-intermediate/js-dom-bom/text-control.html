@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/invoice.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="my-5">
+                    <h4><span id="output">Text Here</span></h4>
+                </div>
+                <div style="bottom: 50px; left: 0; right: 0; max-width: 600px;" class="position-fixed mx-auto border bg-white rounded row g-4 px-3 pb-4 ">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between">
+                            <label class="form-label" for="">Say Something</label>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button id="speechToText" class="btn btn-outline-dark border-0"><i class="ri-mic-line fs-5"></i></button>
+                                <button id="textToSpeech" class="btn btn-outline-dark border-0"><i class="ri-volume-up-line fs-5"></i></button>
+                                <div class="m-2">Count : <span id="count">0</span></div>
+                            </div>
+                        </div>
+                        <textarea class="form-control" name="" id="text" cols="30" rows="7"></textarea>
+                    </div>
+                    <div class="col">
+                        <label class="form-label" for="">Font Style</label>
+                        <select id="fontFamily" class="form-select" name="" id="">
+                            <option value="">Select font</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label class="form-label" for="">Select Color</label>
+                        <input id="color" class="form-control form-control-color w-100" type="color">
+                    </div>
+                    <div class="col">
+                        <label class="form-label" for="">Font Size</label>
+                        <input id="fontSize" min="0" max="100" value="22" class="form-range" type="range">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <script src="./tc.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .box{
+            width: 100px;
+            height: 100px;
+            /* background-color: black; */
+            /* transition: 0.5s; */
+            background-color: violet;
+            animation-name: moveright;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 3;
+            animation-delay: 2s;
+            animation-fill-mode: both;
+            /* animation-direction: alternate; */
+        }
+
+        /* .box:hover{
+            background-color: blueviolet;
+        } */
+
+        @keyframes moveright{
+            0%{
+                transform: translateX(200px);
+            }
+            100%{
+                transform: translateX(400px);
+            }
+        }
+
+
+
+        /* @keyframes changecolor{
+            start
+            0%{
+                background-color: black;
+                
+            }
+            20%{
+                background-color: orange;
+                transform: translateX(300px) rotate(360deg);
+            }
+            40%{
+                background-color: blue;
+                transform: translateX(300px) translateY(300px) rotate(180deg);
+            }
+            60%{
+                background-color: red;
+                transform: translateX(0) translateY(300px) rotate(360deg);
+            }
+            80%{
+                background-color: skyblue;
+                transform: translateX(0) translateY(0);
+            }
+            end
+            100%{
+                background-color: violet;
+            }
+        } */
+
+    </style>
+
+</head>
+<body>
+
+    <div class="box"></div>
+
+</body>
+</html>

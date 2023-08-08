@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .box{
+            width: 100%;
+            height: 500px;
+            margin: 20px;
+            padding: 100px;
+            border: 2px solid black;
+            overflow: hidden;
+        }
+
+        .img{
+            width: 200px;
+            position: absolute;
+            box-shadow: 0 0 15px;
+        }
+
+        .img:nth-child(1){
+            transform: rotate(0);
+        }
+
+        .img:nth-child(2){
+            transform: rotate(20deg);
+        }
+
+        .img:nth-child(3){
+            transform: rotate(40deg);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <img class="img" src="./img/Eren.jpeg" alt="">
+        <img class="img" src="./img/Eren.jpeg" alt="">
+        <img class="img" src="./img/Eren.jpeg" alt="">
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+.header {
+  background-color: yellowgreen;
+  color: aqua;
+}
+
+.bg-primary {
+  background-color: "pink";
+  color: "black";
+}
+
+.text-primary {
+  color: "pink";
+}
+
+.border-primary {
+  border-color: "pink";
+  color: "black";
+}
+
+.navbar:hover {
+  box-shadow: 0 0 2px;
+}
+.navbar .nav-brand {
+  color: "black";
+}
+.navbar .navbar-nav {
+  color: "black";
+}
+.navbar .navbar-nav .nav-item {
+  border: 1px solid black;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: "black";
+}
+.navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link.active {
+  background-color: "pink";
+  color: white;
+}
+
+.footer {
+  background-color: "pink";
+  color: "black";
+}
+
+.btn-primary {
+  background-color: "blue";
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid "blue";
+}
+
+.btn-secondary {
+  background-color: "gray";
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid "gray";
+}
+
+/*# sourceMappingURL=output.css.map */

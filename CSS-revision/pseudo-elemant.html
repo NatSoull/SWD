@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* h1{
+            color: deeppink;
+        }
+
+        h1::before{
+            content: "AAA ";
+            content: url(./img/Eren.jpeg);
+            content: "";
+            background-color: blueviolet;
+            display: inline-block;
+            width: 50px;
+            height: 1em;
+        }
+
+        h1::after{
+            content: " BBB";
+            color: darkblue;
+        } */
+
+        /* .box{
+            width: 150px;
+            height: 150px;
+            background: skyblue;
+        } */
+
+        /* .box{
+            padding: 75px;
+            background: skyblue;
+            display: inline-block;           
+        } */
+
+        /* .box{
+            border: 75px solid skyblue;
+            border-style: solid;
+            border-top-width: 100px;
+            border-left-width: 100px;
+            border-top-color: red;
+            border-right-color: green;
+            border-bottom-color: blue;
+            border-left-color: yellow;
+            display: inline-block;
+        } */
+
+        .box{
+            width: 250px;
+            height: 250px;
+            background: skyblue;
+            position: relative;
+        }
+
+        .box::before{
+            border: 50px solid black;
+            border-top-color: rgb(71, 114, 131);
+            border-left-color: rgb(71, 114, 131);
+            border-right-color: white;
+            border-bottom-color: white;
+            content: "";
+            /* display: inline-block; */
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .dialog{
+            background: pink;
+            padding: 20px;
+            width: 350px;
+            box-sizing: border-box;
+            border-radius: 25px;
+            position: relative;
+        }
+
+        .dialog::after{
+            content: "";
+            border: 10px solid white;
+            border-top-color: pink;
+            position: absolute;
+            left: 50px;
+            bottom: -20px;
+
+        }
+
+        .dialog h3{
+            margin: 0;
+            margin-bottom: 15px;
+        }
+
+        .dialog p{
+            margin: 0;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <!-- <h1>Hello</h1> -->
+
+    <div class="box"></div>
+
+    <hr>
+
+    <div class="dialog">
+        <h3>Hello World</h3>
+        <p>Min Ka Lar Par......</p>
+    </div>
+
+    
+</body>
+</html>

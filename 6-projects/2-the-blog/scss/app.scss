@@ -1,0 +1,95 @@
+// font-family: 'IBM Plex Sans', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+$navbar-nav-link-padding-x: 1.5rem;
+
+$input-bg: rgba(250, 250, 250, 1);
+$input-border-color: #ffffff00;
+$input-group-addon-bg: rgba(250, 250, 250, 1);
+$input-border-radius: 2rem;
+
+$primary: #008000;
+$secondary: rgba(237, 237, 237, 1);
+$info: #3f37c9;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+//   xxl: 1320px
+);
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+  11: $spacer * 9,
+  12: $spacer * 10,
+  13: $spacer * 11,
+  14: $spacer * 12,
+  15: $spacer * 13,
+);
+
+
+
+// $border-radius: 2rem;
+
+$btn-border-radius-sm: 2rem;
+$btn-padding-x-sm: 1rem;
+
+$btn-border-radius: 2rem;
+$btn-padding-x: 1rem;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import "../node_modules/remixicon/fonts/remixicon.css";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.brand-logo{
+    font-size: 2rem;
+}
+
+.para{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.users{
+
+}
+
+.users img{
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 2px rgba(0,0,0,0.5);
+  margin-left: -15px;
+}
+
+.users img:nth-child(1){
+  margin-left: 0;
+}
+
+.personal-social-links{
+  a:hover{
+    color: black !important;
+  }
+  button:hover{
+    color: black !important;
+  }
+}
+
+.article-detail.para{
+  line-height: 1;
+}
+
+

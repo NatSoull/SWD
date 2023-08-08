@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white border-bottom">
+        <div class="container-fluid">
+          <a class="navbar-brand brand-logo" href="index.html"><i class="ri-steam-fill"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="input-group w-25">
+            <span class="input-group-text border-end-0">
+              <i class="ri-search-line"></i>
+            </span>
+            <input type="text" class="form-control border-start-0" placeholder="Search in My Blog">
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="ri-edit-line"></i> Write</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-primary rounded-pill text-white" href="register.html">Sign up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Sign in</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img class="border rounded-circle" height="30" src="./img/user-logo.jpg" alt="">
+                  <i class="ri-arrow-down-s-line"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+
+
+      <main>
+
+        <section id="blog" class="">
+
+          <div class="container">
+            <div class="row g-5">
+
+              <div class="col-md-8">
+
+                <div class="row align-items-center my-5">
+                  <div class="col-1">
+                    <img class="w-100 rounded-circle" alt="Ahmed Ghazal" src="https://miro.medium.com/v2/resize:fill:96:96/1*5VLT0N-v7UdFrpEG-5lu2A.jpeg">
+                  </div>
+                  <div class="col-6">
+                    <p class="mb-0 para">Ahmed Ghazal</p>
+                    <p class="mb-0 small text-black-50 para">Apr 2 · 5 min read</p>
+                  </div>
+                  <div class="col-3">
+                    <div class="text-end personal-social-links">
+                      <a class="text-dark text-decoration-none fs-4 text-muted" href="#">
+                        <i class="ri-twitter-fill"></i>
+                      </a>
+                      <a class="text-dark text-decoration-none fs-4 text-muted" href="#">
+                        <i class="ri-facebook-circle-fill"></i>
+                      </a>
+                      <a class="text-dark text-decoration-none fs-4 text-muted" href="#">
+                        <i class="ri-linkedin-box-fill"></i>
+                      </a>
+                      <a class="text-dark text-decoration-none fs-4 text-muted" href="#">
+                        <i class="ri-link-m"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-2 personal-social-links">
+                    <button class="btn ps-0 fs-4 py-0 text-muted">
+                      <i class="ri-bookmark-3-line"></i>
+                    </button>
+                    <button class="btn ps-0 fs-4 py-0 text-muted">
+                      <i class="ri-more-fill"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="article-detail para">
+                  <h2 class="fw-bold mb-5">A Short Introduction to Python’s Coding Style</h2>
+                  <img class="mb-10" alt width="700" height="525" src="https://miro.medium.com/v2/resize:fit:700/0*awbdAUzSHbfhHxhP">
+                  <p class="mb-4">When I decided a couple of days ago to start writing about Python, I wasn’t sure what my first topic would be. Mostly because I’ve never written any article in my life before, and it’s quite intimidating. Then I thought: “Alright, I will just start with something short and simple to get my feet wet.”, so here we are.</p>
+                  <p class="mb-4">We will have a quick look on some of the coding style guidelines for Python which will help us write a clear, consistent, and easy on the eye code.</p>
+                  <p class="mb-5">Let’s dive right in!</p>
+                  <h5 class="fw-bold">Table Of Contents</h5>
+                  <ul class="mb-6">
+                    <li class="mb-2">
+                      <a class="text-dark" href="#">Introduction</a>
+                    </li>
+                    <li class="mb-2">
+                      <a class="text-dark" href="#">Naming Conventions</a>
+                    </li>
+                    <li class="mb-2">
+                      <a class="text-dark" href="#">To White Space or Not To White Space?</a>
+                    </li>
+                    <li class="mb-2">
+                      <a class="text-dark" href="#">General Guidelines</a>
+                    </li>
+                    <li class="mb-2">
+                      <a class="text-dark" href="#">Don’t Do Everything Yourself</a>
+                    </li>
+                  </ul>
+                  <h5 class="fw-bold">Introduction</h5>
+                  <p class="mb-4">Chances are that you have already heard about PEP, but just in case you haven’t, here is the formal definition:</p>
+                  <div class="border-start border-3 border-dark px-4 mb-4">
+                    <p class="m-0">PEP stands for Python Enhancement Proposal. A PEP is a design document providing information to the Python community, or describing a new feature for Python or its processes or environment</p>
+                  </div>
+                  <p class="m-0">There is a large list of PEPs addressing different Python related topics, but we will focus only on PEP 8 which is The guideline when it comes to Python coding style conventions. It aims to make the code more readable and consistent by defining a set of guidelines for naming conventions, usage of tabs vs spaces, maximum line length, etc.</p>
+                  <p>However, keep in mind that those are not rules, sometimes it makes sense not to follow a particular guideline, check some examples here: A Foolish Consistency is the Hobgoblin of Little Minds</p>
+
+                  
+                  
+
+                    
+                </div>
+
+              </div>
+
+
+              <div class="col-4">
+                <div>
+                  <a class="text-decoration-none text-black-50" href="#"></a>
+                  <a class="text-decoration-none text-black-50" href="#"></a>
+                  <a class="text-decoration-none text-black-50" href="#"></a>
+                  <a class="text-decoration-none text-black-50" href="#"></a>
+                  <a class="text-decoration-none text-black-50" href="#"></a>
+                  <a class="text-decoration-none text-black-50" href="#"></a>
+                  <a class="text-decoration-none text-black-50" href="#"></a>
+                  <a class="text-decoration-none text-black-50" href="#"></a>
+                  <a class="text-decoration-none text-black-50" href="#"></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </section>
+
+      </main>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

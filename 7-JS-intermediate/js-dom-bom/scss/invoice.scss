@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+@import "../node_modules/remixicon/fonts/remixicon.css";
+
+$font-family-sans-serif : 'Montserrat' , sans-serif;
+// $border-radius : 0;
+$enable-rounded : false;
+$component-active-bg : green;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+.dropdown-icon{
+    // display: none;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+td:hover .dropdown-icon{
+    // display: inline;
+    transform: scale(1);
+}
+
+.bg-transparent-50{
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.side-bar{
+    transform: translateX(-100%);
+    transition: 0.5s;
+}
+
+.side-bar.active{
+    transform: translateX(0);
+}
+
+.menu:active{
+    transform: scale(0.5);
+    transition: 0.5s;
+}

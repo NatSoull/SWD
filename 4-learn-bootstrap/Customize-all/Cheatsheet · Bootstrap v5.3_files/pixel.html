@@ -1,0 +1,62 @@
+
+<!-- saved from url=(0222)https://trendlavida.com/pixel.php?time=1678555138497&clientId=1675840096831_79fedb3ae67fe8e32e8fbd412c3f5eb803631935c9014d063eeeb8ad02a29&origin_length=0&origin={}&ref=https://getbootstrap.com/docs/5.3/examples/cheatsheet/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="refresh" content="400">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex">
+<style>
+            .flipX video::-webkit-media-text-track-display {
+                transform: matrix(-1, 0, 0, 1, 0, 0) !important;
+            }
+            .flipXY video::-webkit-media-text-track-display {
+                transform: matrix(-1, 0, 0, -1, 0, 0) !important;
+            }
+            .flipXYX video::-webkit-media-text-track-display {
+                transform: matrix(1, 0, 0, -1, 0, 0) !important;
+            }</style><style>
+            @keyframes blinkWarning {
+                0% { color: red; }
+                100% { color: white; }
+            }
+            @-webkit-keyframes blinkWarning {
+                0% { color: red; }
+                100% { color: white; }
+            }
+            .blinkWarning {
+                -webkit-animation: blinkWarning 1s linear infinite;
+                -moz-animation: blinkWarning 1s linear infinite;
+                animation: blinkWarning 1s linear infinite;
+            }</style></head><body>
+
+<script>
+var domain = 'trendlavida.com';
+var time = Date.now();
+if(window.location.host != domain) {
+    window.location.href = "https://" + domain + "/pixel.php" + window.location.search;
+}
+
+setTimeout(function() {
+	try {
+		document.getElementById("player").remove();
+	} catch(ex){}
+	window.location.reload();
+}, 300*1000);
+
+function createFrame1(url, id) {
+    var iframe = document.createElement('iframe');
+	iframe.src = url;
+	iframe.id = id;
+    document.body.appendChild(iframe);
+}
+
+function createFrame(videoId, el, autoplay, cc, id) {
+	var iframe = document.createElement('iframe');
+	iframe.src = 'https://www.google.com/url?sa=D&q=https%3A%2F%2Fwww.youtube.com%2Fembed%2F'+ videoId +'%3Fenablejsapi%3D0%26autoplay%3d'+ autoplay + '%26mute%3d1%26el%26showinfo%3D0%26playsinline%3D0%26modestbranding%3D0%26rel%3D0%26loop%3D0%26cc_load_policy%3D' + cc +'%26origin%3D*';
+	iframe.id = id;
+	iframe.style.height="1px";
+	iframe.style.width="1px";
+	document.body.appendChild(iframe);
+}
+
+</script>
+
+</body></html>

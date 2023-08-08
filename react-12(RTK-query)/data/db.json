@@ -1,0 +1,28 @@
+{
+  "blog": [
+    {
+      "id": "1689354837714",
+      "title": "MacBook",
+      "description": "macbook pro clear looking and shark",
+      "image": "https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+      "id": "1689354879882",
+      "title": "Dell",
+      "description": "Dell 7 mini",
+      "image": "https://images.pexels.com/photos/8774466/pexels-photo-8774466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "1689354951265",
+      "title": "HP",
+      "description": "with headphone gift",
+      "image": "https://images.pexels.com/photos/11129922/pexels-photo-11129922.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+      "id": "1689358652330",
+      "title": "good",
+      "description": "sheee",
+      "image": "https://images.pexels.com/photos/14131901/pexels-photo-14131901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+}

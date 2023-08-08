@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+@import "../node_modules/remixicon/fonts/remixicon.css";
+
+$font-family-sans-serif : 'Montserrat' , sans-serif;
+// $border-radius : 0;
+$enable-rounded : false;
+$component-active-bg : green;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

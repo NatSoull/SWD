@@ -1,0 +1,158 @@
+//Customize bootstrap
+
+$navbar-nav-link-padding-x:         1.5rem;
+$font-family-sans-serif: poppins;
+
+$body-bg: hsl(19, 100%, 96%);
+$body-color: hsl(19, 16%, 35%);
+
+$primary: hsl(19, 64%, 54%);
+
+$btn-border-radius: 2rem;
+$btn-padding-x: 1.8rem;
+$btn-padding-y: .8rem;
+// $btn-font-size : 0.9rem;
+
+$font-size-base: 0.9rem;
+
+// $display-font-family: "lorem" , serif;
+// $headings-font-family: "Dancing Script", cursive;
+
+
+// $light : hsl(19, 8%, 55%);
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+  11: $spacer * 9,
+  12: $spacer * 10,
+  13: $spacer * 11,
+  14: $spacer * 12,
+  15: $spacer * 13,
+);
+
+$nav-tabs-border-color: "transparent";
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/remixicon/fonts/remixicon.css";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
+@import "../node_modules/animate.css/animate.min.css";
+
+
+
+.btn-primary,.btn-primary:hover,.btn-primary:active{
+    color: white;
+}
+
+.navbar-brand-logo{
+    height: 1.5rem;
+}
+
+.btn-with-icon i{
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.home-title img{
+    height: 65px;
+}
+
+.spacer-100{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.title{
+    font-family: "lorem" , serif;
+    color: hsl(19, 16%, 15%);
+}
+
+.sub-title{
+    font-family: "Dancing Script", cursive;
+}
+
+.title-center{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.dish-card{
+    background-color:  hsl(19, 100%, 97%);
+}
+
+.dish-card img{
+    margin-top: -50px;
+    transition: 0.5s;
+}
+
+// .dish-card img:hover{
+//     transform: translateY(-50px);
+// }
+
+.dish-card:hover img{
+    transform: translateY(-40px);
+}
+
+
+.delay-less{
+    animation-delay: 0.5s;
+}
+
+#home{
+    // background: url(../img/leaf-branch-2.png)no-repeat;
+    position: relative;
+}
+
+#home::before{
+    content: url(../img/leaf-branch-2.png);
+    position: absolute;
+    opacity: 0.2;
+    transform: rotate(90deg) translateX(0) translateY(50px);
+    z-index: -1;
+}
+
+#home::after{
+    content: url(../img/leaf-branch-4.png);
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    opacity: 0.2;
+    transform: translateX(110px);
+    z-index: -1;
+}
+
+.newsletter-bg{
+    background-color: rgb(29, 19, 13);
+    border-radius: 80px;
+}
+
+nav{
+    background-color: $body-bg;
+}
+
+
+
+
+
+
+
+
